@@ -434,10 +434,10 @@ ScriptablePluginObject::GetProperty(NPIdentifier name, NPVariant *result)
 
 bool ScriptablePluginObject::SetProperty(NPIdentifier name, const NPVariant *value)
 {
-    if (name == sBar_id) {
+    /*if (name == sBar_id) {
         printf ("bar set\n");
         return true;
-    }
+    }*/
 
     return false;
 }
